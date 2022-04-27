@@ -47,13 +47,12 @@ else:
     os.mkdir(path)
 
 # 接收文件存储路径
-#sto = r'C:\Users\20614\Desktop\测试'
 sto = r'D:\receive'
 BUFFER_SIZE = 1<<22
 
 # IP地址与端口
 #addr = ('127.0.0.1',7778)
-ip = str(input('请输入接收端的IP地址: '))
+ip = str(input('请输入发送端的IP地址: '))
 addr = (ip,7778)
 
 # 用于与另一部电脑进行通信的IP地址与端口号
